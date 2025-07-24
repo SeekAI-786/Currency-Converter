@@ -1,30 +1,30 @@
 
-# 💱 Currency Converter GUI App
+# Currency Converter GUI App
 
 A simple desktop application built using Python and Tkinter that lets you convert between popular currencies in real time using [RapidAPI's Currency Converter API](https://rapidapi.com/).
 
 ---
 
-## 🖥️ Features
+## Features
 
-- ✅ Real-time currency conversion
-- ✅ Supports 13 major currencies
-- ✅ Clean and responsive Tkinter GUI
-- ✅ Displays currency symbols (₹, $, €, ₨, etc.)
-- ✅ Uses **RapidAPI** for exchange rate data
+- Real-time currency conversion
+- Supports 13 major currencies
+- Clean and responsive Tkinter GUI
+- Displays currency symbols (₹, $, €, ₨, etc.)
+- Uses **RapidAPI** for exchange rate data
 
 ---
 
-## ⚙️ Setup & Installation
+## Setup & Installation
 
-### 1. 📥 Clone the Repository
+### 1. Clone the Repository
 
 ```bash
 git clone https://github.com/yourusername/currency-converter.git
-cd currency-converter
+cd currency converter
 ```
 
-### 2. 📦 Install Required Dependencies
+### 2. Install Required Dependencies
 
 Make sure you have Python 3.7 or above installed.
 
@@ -32,11 +32,11 @@ Make sure you have Python 3.7 or above installed.
 pip install pillow requests
 ```
 
-> 🧩 `tkinter` comes pre-installed with most Python distributions. If not, reinstall Python and make sure to check the **“tcl/tk”** option during installation.
+> `tkinter` comes pre installed with most Python distributions. If not, reinstall Python and make sure to check the **“tcl/tk”** option during installation.
 
 ---
 
-### 3. 🔑 API Key Setup (RapidAPI)
+### 3. API Key Setup (RapidAPI)
 
 This app uses the [Currency Converter API](https://rapidapi.com/apilayernet/api/currency-converter18) from RapidAPI for real-time exchange rates.
 
@@ -44,7 +44,7 @@ This app uses the [Currency Converter API](https://rapidapi.com/apilayernet/api/
 
 1. Go to [RapidAPI](https://rapidapi.com/) and log in or sign up.
 2. Search for **Currency Converter API** and subscribe to a free plan.
-3. Copy your `X-RapidAPI-Key`.
+3. Copy your `X-RapidAPI Key`.
 4. Open the `currency_converter.py` file and locate this section:
 
 ```python
@@ -54,11 +54,11 @@ headers = {
 }
 ```
 
-5. Replace `"your-api-key-here"` with your actual API key.
+5. Replace `"your_api_key_here"` with your actual API key.
 
 ---
 
-### 4. 🚀 Run the App
+### 4. Run the App
 
 Once dependencies and the API key are set up:
 
@@ -68,7 +68,7 @@ python currency_converter.py
 
 ---
 
-## 🌍 Supported Currencies
+## Supported Currencies
 
 The application supports conversion between the following 13 major currencies:
 
@@ -91,15 +91,13 @@ The application supports conversion between the following 13 major currencies:
 
 ---
 
-## 🖼️ UI Preview
+## UI Preview
 
-> *(Add a screenshot or screen recording of your app GUI here)*  
-> Example:  
 > ![App Screenshot](converter.png)
 
 ---
 
-## 🙌 Contributing
+## Contributing
 
 Have an idea to improve the app or want to add more currencies?  
 Feel free to fork the repo, submit a pull request, or open an issue!
