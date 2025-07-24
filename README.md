@@ -95,7 +95,7 @@ The application supports conversion between the following 13 major currencies:
 
 > *(Add a screenshot or screen recording of your app GUI here)*  
 > Example:  
-> ![App Screenshot](app.png)
+> ![App Screenshot](converter.png)
 
 ---
 
